@@ -6,8 +6,8 @@ class App extends Component {
         let relatives=["yash","harsh","vipul","praful"];
         return(
            <>
-           <ol key="relativelist">
-               {relatives.map((ele,index)=>(<li key={`relativeListItem${index}`}>{ele}</li>))}
+           <ol key="relativeList">
+               {relatives.map((ele,index)=>(<li key={`relativeListItem${index+1}`}>{ele}</li>))}
                </ol>
 	</>
         )
